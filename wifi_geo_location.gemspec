@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["tsub"]
   spec.email         = ["nor.known.to.life.51122@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Getting your geo location with GoogleGeoLocationAPI using Wi-Fi MacAddress in around here.}
+  spec.description   = %q{Getting your geo location with GoogleGeoLocationAPI using Wi-Fi MacAddress in around here.}
+  spec.homepage      = "https://github.com/tsub/wifi_geo_location"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
