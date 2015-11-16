@@ -1,7 +1,0 @@
-machine:
-  timezone: Asia/Tokyo
-  ruby:
-    version: 2.2.3
-dependencies:
-  pre:
-    - gem install bundler --pre
