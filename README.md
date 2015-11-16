@@ -1,8 +1,6 @@
 # WifiGeoLocation
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wifi_geo_location`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Getting your geo location with GoogleGeoLocationAPI using Wi-Fi MacAddress in around here.
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'wifi_geo_location'
+
+WifiGeoLocation.find(key: '<Your-GoogleDeveloperConsole-APIKey>')
+```
+
+## Response
+
+[GoogleGeoLocationAPI Document](https://developers.google.com/maps/documentation/geolocation/intro)
 
 ## Development
 
@@ -32,7 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/wifi_geo_location.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tsub/wifi_geo_location.
 
 
 ## License
